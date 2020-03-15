@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "msg": "获取成功",
+  "data": {
+    "logo": "assets/logo_images/logo.jpg",
+    "nav": [
+      {
+        "title": "全部课程",
+        "path": "/course",
+        "icon": ""
+      },
+      {
+        "title": "实战课程",
+        "path": "/lesson",
+        "icon": ""
+      },
+      {
+        "title": "专栏",
+        "path": "/read",
+        "icon": "https://www.imooc.com/static/img/common/new.png"
+      },
+      {
+        "title": "在线练习",
+        "path": "/question",
+        "icon": ""
+      }
+    ]
+  }
+}
