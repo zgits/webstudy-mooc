@@ -23,9 +23,14 @@ import {
   DropdownMenu,
   DropdownItem,
   Image,
-  Avatar
+  Avatar,
+  Select,
+  Option,
 } from 'element-ui'
 
+
+Vue.use(Select)
+Vue.use(Option)
 Vue.use(Avatar)
 Vue.use(Image)
 Vue.use(Dropdown)
@@ -56,6 +61,9 @@ Vue.use(Mooc)
 
 import 'assets/stylus/index.styl'
 
+import VueCodeMirror from 'vue-codemirror'
+import 'codemirror/lib/codemirror.css'
+Vue.use(VueCodeMirror)
 
 Vue.config.productionTip = false
 

@@ -21,6 +21,7 @@ const NoticeIndex = () => import('pages/notice/index.vue') // 消息中心路由
 const CartIndex = () => import('pages/cart/cart.vue') // 购物车路由
 const CartConfirm = () => import('pages/cart/confirm.vue') // 购物车确认路由
 const CartPay = () => import('pages/cart/pay.vue') // 购物车支付路由
+const IDE = () => import('pages/ide/IDE.vue') //IDE路由
 
 const routes = [
   {
@@ -31,12 +32,12 @@ const routes = [
   {
     path: '/test',
     name: 'Test',
-    component:Test 
+    component:Test
   },
   {
     path: '/home',
     name: 'Home',
-    component:Home 
+    component:Home
   },
   {
     path: '/user',
@@ -133,6 +134,11 @@ const routes = [
     path: '/article',
     name: 'ArticleIndex',
     component:ArticleIndex
+  },
+  {
+    path: '/IDE',
+    name: 'IDE',
+    component :IDE
   }
 ]
 const router = new Router({
