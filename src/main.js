@@ -26,9 +26,20 @@ import {
   Avatar,
   Select,
   Option,
+  Button,
+  Link,
+  Row,
+  Col,
+  Card,
 } from 'element-ui'
 
 
+
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Link)
+Vue.use(Button)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Avatar)
@@ -64,6 +75,9 @@ import 'assets/stylus/index.styl'
 import VueCodeMirror from 'vue-codemirror'
 import 'codemirror/lib/codemirror.css'
 Vue.use(VueCodeMirror)
+
+import VueAppend from 'vue-append'
+Vue.use(VueAppend)
 
 Vue.config.productionTip = false
 

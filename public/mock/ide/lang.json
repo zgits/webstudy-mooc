@@ -17,6 +17,30 @@
     {
       "id": 3,
       "name": "Python"
+    },
+    {
+      "id": 4,
+      "name": "PHP"
+    },
+    {
+      "id": 5,
+      "name": "Ruby"
+    },
+    {
+      "id": 6,
+      "name": "Kotlin"
+    },
+    {
+      "id": 7,
+      "name": "Go"
+    },
+    {
+      "id": 8,
+      "name": "Perl"
+    },
+    {
+      "id": 9,
+      "name": "Swift"
     }
   ]
 }

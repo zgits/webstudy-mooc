@@ -4,3 +4,8 @@ import axios from 'utils/axios.js'
 export function getLang() {
     return axios('/mock/ide/lang.json')
 }
+
+export function runCode(code) {
+    console.log(code)
+    return axios('/mock/ide/result.json')
+}
