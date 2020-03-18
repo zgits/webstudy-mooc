@@ -29,8 +29,8 @@ module.exports = {
   devServer: {
     port: 3400,
     proxy: {
-      '/mock': {
-        target: 'http://localhost:3400'
+      '': {
+        target: 'http://localhost:8081'
       }
     }
   },

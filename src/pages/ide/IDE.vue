@@ -130,6 +130,10 @@
                     autoCloseBrackets: true,
 
                     autoCloseTags: true,
+                },
+                codeForm:{
+                    codeNumber:0,
+                    codeContent:''
                 }
             }
         },
@@ -160,7 +164,11 @@
             },
             runCodeData() {
                 if (this.lang > 0) {
-                    runCode(this.curCode).then(res => {
+
+                    this.codeForm.codeNumber=this.lang
+                    this.codeForm.codeContent=this.curCode
+
+                    runCode(this.codeForm).then(res => {
                         let {code, data} = res
                         if (code === ERR_OK) {
                             this.result = data

@@ -22,6 +22,7 @@ const CartIndex = () => import('pages/cart/cart.vue') // 购物车路由
 const CartConfirm = () => import('pages/cart/confirm.vue') // 购物车确认路由
 const CartPay = () => import('pages/cart/pay.vue') // 购物车支付路由
 const IDE = () => import('pages/ide/IDE.vue') //IDE路由
+const Video= () => import('pages/video/index.vue') //播放视频
 
 const routes = [
   {
@@ -139,6 +140,14 @@ const routes = [
     path: '/IDE',
     name: 'IDE',
     component :IDE
+  },
+  {
+    path: '/video',
+    name: '/video',
+    component: Video,
+    meta: {
+      requireAuth: true
+    }
   }
 ]
 const router = new Router({

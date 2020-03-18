@@ -7,5 +7,9 @@ export function getLang() {
 
 export function runCode(code) {
     console.log(code)
-    return axios('/mock/ide/result.json')
+    return axios({
+        url:'/code/run',
+        method:'post',
+        data:code
+    })
 }

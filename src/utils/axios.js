@@ -5,7 +5,7 @@ import { BASE_URL, IS_MOCK_LOCAL } from 'api/config.js'
 const Message = components.Message
 const service = axios.create({
   baseURL: IS_MOCK_LOCAL ? '' : BASE_URL,
-  timeout: 10000
+  timeout: 1000000
 })
 
 // 请求拦截

@@ -70,14 +70,25 @@ import Mooc from './register.js'
 import 'assets/theme/index.styl'
 Vue.use(Mooc)
 
+
+// 代码插件
 import 'assets/stylus/index.styl'
 
 import VueCodeMirror from 'vue-codemirror'
 import 'codemirror/lib/codemirror.css'
 Vue.use(VueCodeMirror)
 
+
+// 显示效果插件
 import VueAppend from 'vue-append'
 Vue.use(VueAppend)
+
+
+// 播放视频插件
+import VideoPlayer from 'vue-video-player'
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+Vue.use(VideoPlayer)
 
 Vue.config.productionTip = false
 

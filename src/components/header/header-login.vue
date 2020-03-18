@@ -2,8 +2,8 @@
   <ul class="login-area">
     <li class="item cart" @mouseenter="showMiniCart = true" @mouseleave="handleCarItemtMouseLeave">
       <a href="javascript:;">
-        <i class="iconfont">&#xe63b;</i>
-        <span class="login-text">购物车</span>
+<!--        <i class="iconfont">&#xe63b;</i>-->
+<!--        <span class="login-text">购物车</span>-->
         <div class="mini-chart-container" @mouseenter="handleCartMouseEnter" @mouseleave="showMiniCart = false">
           <mini-cart v-if="showMiniCart" :list="cartList" @close="showMiniCart=false" @delete="handleDeleteClick" />
         </div>
