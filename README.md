@@ -1,5 +1,7 @@
 # vue-mooc
 
+随便写写
+
 [预览地址](https://wangtunan.github.io/vue-mooc/#/home) 
 [文档地址](https://wangtunan.github.io/vue-mooc-site/)
 
